@@ -1,0 +1,357 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size:20px;
+    font-size:1.7em;
+}
+
+h1,h2,h4 {
+   font-family: 'Open Sans Condensed', sans-serif;
+}
+.just-txt-div {
+    padding:30px 0;
+}
+.just-txt-div p {
+    padding-top:10px;
+}
+
+div.parallax-like .just-txt-div strong{
+  font-size: 1.4em;
+}
+
+
+.head-line {
+    text-align:center;
+    text-transform:uppercase;
+    font-size:2.5em;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1.head-line{
+  padding-bottom: 1.5em;
+}
+.pad-set {
+    padding-top:1em;
+    padding-bottom:1em;
+}
+.pad-top {
+     padding-top:50px;
+}
+/* =============================================================
+   NAVBAR & MENU STYLES
+ ============================================================ */
+
+.right-div {
+    float: right; 
+    padding: 20px;
+    font-size:20px;
+}
+#menu-top a {
+    color:#000;
+    text-decoration:none;
+    font-weight:500;
+    padding: 25px 15px 25px 15px;
+    text-transform:uppercase;
+    font-size:16px;
+    font-weight:900;
+
+}
+.menu-section {
+    background-color: #f7f7f7;
+    border-bottom:5px solid #CECECE;
+    width:100%
+}
+.menu-top-active {
+    background-color:#eeeeee;
+}
+.navbar-inverse {
+background-color: #FFF;
+border-color: rgba(155, 153, 153, 0.23);
+
+}
+
+.navbar {
+    min-height: 70px;
+    margin-bottom: 0px;
+   
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color:transparent;
+}
+.navbar-toggle {
+background-color: black;
+border: 1px solid black;
+}
+
+
+/* =============================================================
+   SLIDESHOW / CAROUSEL STYLES
+ ============================================================ */
+
+#carousel-div {
+    border:3px solid #e1e1e1;
+}
+.carousel-caption {
+    top:50px;
+}
+    .carousel-caption .slideInLeft {
+        text-align:center;
+        font-size:30px;
+        font-weight:900;
+        text-transform:uppercase;
+        background-color:rgba(0, 0, 0, 0.65);
+        max-width:440px;
+        padding:15px 25px;
+    }
+
+     .carousel-caption .slideInRight {
+        text-align:center;
+        font-size:25px;
+        font-weight:900;
+        text-transform:uppercase;
+        background-color:rgba(0, 0, 0, 0.65);
+        max-width:340px;
+        padding:15px 25px;
+      
+
+    }
+ /* =============================================================
+    PAGE STYLES
+ ============================================================ */
+
+
+.below-slideshow {
+    color:#fff;
+    background:#8F266B;
+    padding:1em 0;
+    
+}
+    .below-slideshow i {
+        padding-bottom:15px;
+    }
+  
+ 
+    .below-slideshow p {
+        padding-right:30px;
+    }
+    
+.text-header{
+  font-size: 2.5em;
+  padding: 1em 2em 0.5em 2em;
+} 
+.text-header2{
+  font-size: 1.5em;
+}    
+.tag-home {
+    padding-top:50px;
+    padding-bottom:30px;
+    font-size:30px;
+    text-align:center;
+    line-height:45px
+}
+
+.parallax-like {
+margin-top: 20px;
+margin-bottom: 20px;
+background: url(../img/par.jpg) no-repeat center center;
+padding: 0;
+-webkit-background-size: cover;
+background-size: cover;
+color: #fff;
+background-attachment: fixed;
+}
+    .parallax-like .overlay {
+        min-height:150px;
+        background: rgba(15, 15, 15, 0.66);
+        font-size:1.8em;
+        line-height: 1.3em;
+        
+        
+    }
+    
+.vedio-style {
+  border: 0px;
+  width: 100%;
+  min-height: 300px;
+}
+
+.just-sec {
+    padding-top:1em;
+    padding-bottom:2em;
+}
+
+.set-div {
+    border:1px solid #9C4B80;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+}
+
+
+
+.flexslider {
+    -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0);
+     -moz-box-shadow: 0 0px 0px rgba(0,0,0,0);
+    -o-box-shadow: 0 0px 0px rgba(0,0,0,0);
+    box-shadow: 0 0px 0px rgba(0,0,0,0);
+}
+
+.social-div a,a:hover{
+    color:#fff;
+    text-decoration:none;
+}
+
+.set-about-img {
+    border:10px double #89386D;
+     max-height:200px;
+}
+
+.text-nosotros{
+  font-size: 0.8em;
+}
+
+.staff h2{
+  font-size: 1.1em;
+  color:#3C3C3C;
+}
+.staff p{
+  font-size: 0.9em;
+}
+
+.footer-sec {
+    padding-top:30px;
+    color:#fff;
+    background:#89386D;
+    padding-bottom:20px;
+    
+}
+.footer-copy{
+  text-align: right;
+}
+
+.footer-frase{
+  padding-right: 3em;
+}
+
+footer p strong{
+  font-size: 1.4em;
+}
+
+
+/*==========================================
+   GALLERY/ PORTFOLIO STYLES
+    =====================================================*/
+
+#port-folio {
+    padding-top: 80px; 
+    padding-bottom: 100px; 
+}
+.portfolio-item {
+    border:15px double #89386D;
+    margin:3px;
+}
+    .portfolio-item p {
+        padding:30px;
+        color:#fff;
+    }
+
+.portfolio-item .overlay {
+   position: absolute;
+  top: 0;
+  left: 0;
+    width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: #CECECE;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: opacity 300ms;
+  -moz-transition: opacity 300ms;
+  -o-transition: opacity 300ms;
+  transition: opacity 300ms;
+  cursor:pointer;
+  border-radius: 5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+ 
+}
+.portfolio-item .overlay .preview {
+  position: relative;
+  top: 50%;
+  display: inline-block;
+  margin-top: -20px;
+}
+.portfolio-item:hover .overlay {
+  opacity: 1;
+  zoom: 1;
+	filter: alpha(opacity=100);
+}
+.overlay a,overlay a:hover{
+    color:#fff;
+    text-decoration:none;
+}
+#port-folio .overlay p > span {
+    display:block;
+    padding-bottom:20px;
+}
+
+/*==========================================
+   GALLERY/ PORTFOLIO FILTER STYLES
+    =====================================================*/
+ul#filters {
+	padding: 0px;
+}
+#filters {
+	margin: 3% 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+	#filters li {
+		display: -webkit-inline-box;
+	}
+	#filters li span {
+		display: block;
+		padding: 5px 4px;
+		text-decoration: none;
+		color: #d51111;
+		cursor: pointer;
+		font-size: 18px;
+	}
+ 	#port-folio .portfolio-item {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		width: 100%;		
+        opacity:.2;
+		float:left;
+		overflow:hidden;
+	}
+	
+
+/* =============================================================
+  MEDIA QUERIES 
+ ============================================================ */
+
+@media screen and (max-width: 767px) {
+     footer div.col-xs-12{
+        margin-bottom: 2em;
+     }
+}
+
+
+@media screen and (min-width: 740px) and (max-width: 1040px) {
+    .carousel-caption .slideInRight {
+        display: none;
+    }
+}
+
+@media screen (min-width: 100px) and (max-width: 740px) {
+    .carousel-caption .slideInLeft {
+        display: none;
+    }
+
+    .carousel-caption .slideInRight {
+        display: none;
+    }
+}

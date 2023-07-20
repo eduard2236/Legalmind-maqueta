@@ -1,0 +1,3 @@
+user-agent: *
+disallow: /datos-clientes/
+Sitemap:http://eduardcolmenares.com/legalmind/sitemap.xml
