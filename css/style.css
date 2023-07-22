@@ -381,4 +381,7 @@ ul#filters {
         padding: 0px 0px; 
         display: none;
     }
+    .footer-frase {
+        padding-right: 0em; 
+    }
 }
