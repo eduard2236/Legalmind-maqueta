@@ -340,18 +340,45 @@ ul#filters {
 }
 
 
-@media screen and (min-width: 740px) and (max-width: 1040px) {
+@media screen and (max-width: 1040px) {
     .carousel-caption .slideInRight {
         display: none;
     }
 }
 
-@media screen (min-width: 100px) and (max-width: 740px) {
+@media screen and (max-width: 740px) {
+    body{
+        text-align: center;
+    }
     .carousel-caption .slideInLeft {
         display: none;
     }
+    img{
+        width: 100%;
+    }
+    .caja-img{
+        text-align: center;
+    }
+    .text-header {
+        font-size: 1.1em;
+        text-align: center;
+        display: none;
+    }
+    .informacion-inicial p{
+        padding-right: 0px;
+    }
 
     .carousel-caption .slideInRight {
+        display: none;
+    }
+    .carousel-caption .slideInLeft {
+        text-align: center;
+        font-size: 0.5em;
+        font-weight: 900;
+        text-transform: uppercase;
+        background-color: rgba(0, 0, 0, 0.65);
+        max-width: 440px;
+        padding: 0px 0px; 
         display: none;
     }
 }
